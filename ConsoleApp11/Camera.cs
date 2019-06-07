@@ -15,12 +15,11 @@ namespace ConsoleApp11
             counter++;
             if (counter > 3)
             {
-                throw new ArgumentException("lol");
+                throw new ArgumentException("So much cameras...");
             }
             else
             {
                 dict.Add(ip, cam);
-                
             }
 
         }
@@ -40,7 +39,7 @@ namespace ConsoleApp11
                 }
                 else
                 {
-                    throw new ArgumentException("lol");
+                    throw new ArgumentException("So much cameras...");
                 }
             }
         }

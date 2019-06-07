@@ -14,7 +14,7 @@ namespace ConsoleApp11
             Camera cam1 = new Camera();
             Camera cam2 = new Camera();
             Camera cam3 = new Camera();
-            Camera cam4 = new Camera();
+           
 
             Camera.Add(101, cam1);
             Console.WriteLine(Camera.counter);
@@ -22,12 +22,10 @@ namespace ConsoleApp11
             Console.WriteLine(Camera.counter);
             Camera.Add(103, cam3);
             Console.WriteLine(Camera.counter);
-            //Camera.Add(104, cam4);
-            //Console.WriteLine(Camera.counter);
             
 
             Console.ReadKey();
-                Console.WriteLine(Camera.counter);
+                
         }
     }
 }
